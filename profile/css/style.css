@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@800&family=PT+Serif:ital@1&family=Shanti&display=swap');
+body {
+  font-family: 'Shanti', sans-serif;
+  background-image: linear-gradient(to bottom right, #A8DADC,#F1FAEE);
+  font-weight: 100;
+  color: #F1FAEE;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+h1 {
+  font-weight: 700;
+  font-size: 36px;
+  font-family: 'Catamaran', sans-serif;
+  color: #1D3557;
+}
+
+h2 {
+  color: #A8DADC;
+  font-size: 36px;
+  font-family: 'PT';
+}
+
+p {
+  margin: 5px;
+  margin-top: 10px;
+}
+a {
+  text-decoration: none;
+  color:#1D3557;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.card-white {
+  background-color: #457B9D;
+  width: 75%;
+  margin: 24px auto;
+  padding: 36px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #3f3f3f3f;
+
+}
+
+.avatar-circle {
+  width: 116px;
+  border: 2px, solid, rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+.list-inline {
+  display: flex;
+  justify-content: center;
+}
+
+.list-inline li {
+  margin: 0 16px;
+}
+
+i {
+  font-size: 40px;
+}
+
+.btn-pale {
+  background-color: #A8DADC;
+  border: 0px solid #FFF;
+  border-radius: 5px;
+  color: #457B9D;
+  width: 40%;
+  padding: 8px 16px;
+  margin: 20px auto;
+}
+
+.btn-pale:hover {
+  background-color: #F1FAEE;
+  border: 0px solid #FFF;
+  color: #FFF;
+}
+
+.fab, .fas {
+  color: #F1FAEE;
+  margin: 10px;
+}
+
+#intro p {
+  margin-bottom: 32px;
+}
+.personal-infos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.child-card{
+  flex-grow: 1;
+  width: 200px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #3f3f3f3f;
+}
